@@ -1,7 +1,6 @@
 import logo from "./logo.svg";
 import "@aws-amplify/ui-react/styles.css";
 import {
-  withAuthenticator,
   Button,
   Heading,
   Image,
@@ -21,4 +20,4 @@ function App({ signOut }) {
   );
 }
 
-export default withAuthenticator(App);
+export default App;
